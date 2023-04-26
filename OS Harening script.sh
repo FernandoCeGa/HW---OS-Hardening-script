@@ -46,9 +46,9 @@ write_log "$(whoami) ALL=(ALL) NOPASSWD: ALL" | sudo tee -a /etc/sudoers >> /var
 # Configurar banner de inicio de sesión
 write_log "Creando banner"
 echo "# # # # # # # # # # # # # # # # # # # # # # # # # # # # #" >> /etc/motd 
-echo "#       Esto pertenece a <su id UANL>                   #" >> /etc/motd
+echo "#       Esto pertenece a <1937852>                      #" >> /etc/motd
 echo "#       Todas las actividades estan siendo              #" >> /etc/motd
-echo "#       monitoreadas por <su nombre> y los              #" >> /etc/motd
+echo "#       monitoreadas por <Fernando> y los               #" >> /etc/motd
 echo "#       cambios no autorizados seran procesados.        #" >> /etc/motd
 echo "# # # # # # # # # # # # # # # # # # # # # # # # # # # # #" >> /etc/motd
 write_log "Banner Creado"
